@@ -1,5 +1,9 @@
-![image](https://github.com/user-attachments/assets/7d0c05e1-e19a-4991-81ad-8f5198df6256)# eCommerceWebsite
+# eCommerceWebsite
 **Images from inside the app:**
+
+<hr/>
+
+![image](https://github.com/user-attachments/assets/7d0c05e1-e19a-4991-81ad-8f5198df6256)
 ![image](https://github.com/user-attachments/assets/bb2b7e74-0a1c-4fc9-b8d1-9e0748acfeb3)
 ![image](https://github.com/user-attachments/assets/e9310ff0-e394-442f-81c2-dd9e1ef60109)
 ![image](https://github.com/user-attachments/assets/5a08fd29-ba47-451a-8717-eda220cfd0ad)
