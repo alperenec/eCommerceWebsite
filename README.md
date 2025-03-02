@@ -2,6 +2,8 @@
 
 A comprehensive full-stack e-commerce platform built with **Node.js (Express)** on the backend and **React** (with Redux) on the frontend. This application offers user and admin functionality, including JWT-based authentication, role management, product listing and filtering, shopping cart management, and a dedicated admin panel for advanced operations.
 
+---
+
 ### 1. UI/ UX
 
 
@@ -28,6 +30,7 @@ A comprehensive full-stack e-commerce platform built with **Node.js (Express)** 
   - Detailed product descriptions, multiple images  
   - “Buy Now” or “Add to Cart” options
 
+---
 
 ## Key Features
 
@@ -51,6 +54,9 @@ A comprehensive full-stack e-commerce platform built with **Node.js (Express)** 
 
 - **Responsive UI**  
   - Built with React and Tailwind CSS for a clean, responsive interface  
+
+---
+
 
 ## Architecture Overview
 
