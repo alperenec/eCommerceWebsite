@@ -1,30 +1,91 @@
-# eCommerceWebsite
-**Images from inside the app:**
+# E-Commerce Website
 
-<hr/>
+A comprehensive full-stack e-commerce platform built with **Node.js (Express)** on the backend and **React** (with Redux) on the frontend. This application offers user and admin functionality, including JWT-based authentication, role management, product listing and filtering, shopping cart management, and a dedicated admin panel for advanced operations.
 
-![image](https://github.com/user-attachments/assets/7d0c05e1-e19a-4991-81ad-8f5198df6256)
-<hr/>
+### 1. UI/ UX
 
-![image](https://github.com/user-attachments/assets/bb2b7e74-0a1c-4fc9-b8d1-9e0748acfeb3)
-<hr/>
 
-![image](https://github.com/user-attachments/assets/e9310ff0-e394-442f-81c2-dd9e1ef60109)
-<hr/>
+![1](https://github.com/user-attachments/assets/3f1c9ea6-6092-4c70-888f-97c111545284)
 
-![image](https://github.com/user-attachments/assets/5a08fd29-ba47-451a-8717-eda220cfd0ad)
-<hr/>
 
-![image](https://github.com/user-attachments/assets/6c44a22b-ef1d-4892-86b1-f4915904ec60)
-<hr/>
+- **Search Bar** for products  
+- **Category Filter** (e.g., headphones, phones, etc.)  
+- **Sign Up / Sign In** forms with JWT-based authentication  
+- **Add to Cart** and **Product Filtering** by price and category
 
-![image](https://github.com/user-attachments/assets/ac6661ad-6bd8-432a-a2c2-7c3c334b8e7e)
-<hr/>
+### 2. Admin, Cart & Product Details
 
-![image](https://github.com/user-attachments/assets/934a5246-f766-45ac-8cbe-e28b3b1b3b92)
-<hr/>
 
-![image](https://github.com/user-attachments/assets/829cbb73-986e-4928-82e9-8eea19131950)
-<hr/>
+![2](https://github.com/user-attachments/assets/e6d020f4-52b3-4173-9ab7-0c929136c22d)
 
-![image](https://github.com/user-attachments/assets/cc93a781-34e0-4271-b66e-ca5630c4ef3f)
+- **Admin Panel**:  
+  - View all users and change their roles  
+  - Manage products (edit, update, or create new ones)  
+- **Shopping Cart**:  
+  - See items added by users  
+  - Adjust quantity or remove products  
+- **Product Details**:  
+  - Detailed product descriptions, multiple images  
+  - “Buy Now” or “Add to Cart” options
+
+
+## Key Features
+
+- **Authentication & Authorization**  
+  - JWT-based sign-up and sign-in  
+  - Role-based access (ADMIN/GENERAL)  
+
+- **Product Management**  
+  - Create, Read, Update, Delete (CRUD) operations for products  
+  - Image upload (Cloudinary integration)  
+  - Price and category-based filtering, search functionality  
+
+- **Shopping Cart**  
+  - Add products to cart, update quantity, remove items  
+  - Dynamic cart total and item count  
+
+- **Admin Panel**  
+  - Manage all users: change roles (ADMIN/GENERAL)  
+  - Manage products: edit, delete, or add new  
+  - View user list, track creation dates  
+
+- **Responsive UI**  
+  - Built with React and Tailwind CSS for a clean, responsive interface  
+
+## Architecture Overview
+
+This project follows a simple **MVC-like** pattern on the backend:
+
+- **Models**: Mongoose schemas (e.g., `userModel.js`, `productModel.js`, `cartProduct.js`)  
+- **Controllers**: Business logic (e.g., `uploadProduct.js`, `userSignIn.js`)  
+- **Routes**: Endpoint definitions (e.g., `/api/get-product`, `/api/signup`)  
+
+On the frontend, React manages UI components, while Redux stores and handles global state (e.g., user info, cart items). React Router manages navigation between pages.
+
+---
+
+## Technologies Used
+
+### Backend
+- **Node.js**  
+- **Express.js**  
+- **MongoDB** & **Mongoose**  
+- **JWT** for authentication  
+- **Cloudinary** (optional) for image uploads  
+- **bcryptjs** for password hashing  
+
+### Frontend
+- **React** (Functional components & Hooks)  
+- **Redux** for state management  
+- **React Router** for navigation  
+- **Tailwind CSS** for styling  
+- **ESLint** for linting and code consistency  
+
+---
+
+## Getting Started
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/alperenec/eCommerceWebsite
+cd eCommerceWebsite
